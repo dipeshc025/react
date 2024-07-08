@@ -8,7 +8,8 @@ const Footer = () => {
 
       <div className="info absolute right-1/2 top-1/2 sm:right-[40%]  text-white sm:top-[40%]">
         <h1>Develop By</h1>
-        <p>Anonymous</p>
+        <br />
+        <p>Dipesh Katwal</p>
       </div>
 
     </footer>

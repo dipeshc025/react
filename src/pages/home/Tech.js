@@ -9,13 +9,13 @@ const Tech = () => {
 
       <div className="dev-icons grid grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 justify-items-center gap-y-4 ">
 
-        <DiAndroid size={200} />
-        <DiPython size={200} />
+        <DiAndroid size={200} className='hover:scale-125 hover:text-red-700 ' />
+        <DiPython size={200} className='hover:animate-spin' />
         <DiCss3 size={200} />
         <DiReact size={200} className='animate-bounce' />
-        <DiHtml5 className='hover:scale-125 hover:text-red-700 transition-all duration-200' size={200} />
+        <DiHtml5 className='hover:scale-125 hover:text-red-700 transition-all duration-200 animate-spin'  size={200} />
         <DiJavascript size={200} />
-        <DiNodejs size={200} />
+        <DiNodejs size={200} className='animate-ping'/>
         <DiAppstore size={200} />
       </div>
 

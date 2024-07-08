@@ -7,10 +7,10 @@ const Intro = () => {
       <div className='h-[370px] w-[370px] bg-black rounded-full border-[7px] border-green-700 flex justify-center items-center mx-auto'>
 
         <div className="info text-white">
-          <p>Name:Some Person</p>
-          <p>Email:someperson@gmail.com</p>
+          <p>Name:Dipesh Katwal</p>
+          <p>Email:dipeshc025@gmail.com</p>
           <p>Tel:9777777</p>
-          <p>Age:90</p>
+          <p>Age:24</p>
           <p>Experience:python, java, dart</p>
 
         </div>
